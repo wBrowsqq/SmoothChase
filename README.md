@@ -1,4 +1,4 @@
-Roblox AI Pathfinding Module
+# Roblox AI Pathfinding Module
 
 This module is a lightweight, extendable Pathfinding AI system built in Roblox Lua, designed for server-side AI movement using the built-in PathfindingService. It allows you to create AI entities that can chase a target, roam randomly, and intelligently follow waypoints, with support for visibility checks, jump control, and update interval scaling.
 
