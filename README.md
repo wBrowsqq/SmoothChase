@@ -37,7 +37,7 @@ Name it something like PathfindingModule.
 🚀 How to Use
 
 Here’s a basic setup example:
-
+`
 -- In a ServerScript inside ServerScriptService
 
 local Pathfinding = require(game.ServerScriptService:WaitForChild("PathfindingModule"))
@@ -56,7 +56,7 @@ local entity = Pathfinding.CreateChase(
 
 -- Set a target (can be Vector3, BasePart, or CFrame)
 entity.Target = workspace:WaitForChild("PlayerRootPart") -- or Vector3.new(...), or CFrame.new(...)
-entity.OnSight = true -- Optional: if true, will only chase if line-of-sight is clear
+`
 
 ⚙️ Parameters Explained
 
