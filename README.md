@@ -38,5 +38,4 @@ local entity = Pathfinder.CreateChase(
 
 -- Set a target for the entity
 entity.Target = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
-entity.OnSight = true -- Only follow if there's line of sight
 ```
