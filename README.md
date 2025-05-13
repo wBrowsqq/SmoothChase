@@ -1,11 +1,10 @@
 # Roblox Pathfinding AI Module
 
-This is a robust pathfinding module built for Roblox using Lua. It allows you to assign a moving target (`Vector3`, `CFrame`, or `BasePart`) to an entity, and it will pathfind and chase that target. It also supports roaming behavior if the target is not visible or lost.
+This is a robust pathfinding module built for Roblox using Lua. It allows you to assign a moving target (`Vector3`, `CFrame`, or `BasePart`) to an entity, and it will pathfind and chase that target.
 
 ## 🚀 Features
 
 - Supports chasing dynamic targets (`Vector3`, `BasePart`, `CFrame`)
-- Sight checking (OnSight)
 - Smart update intervals based on distance
 - Asynchronous path following
 - Roaming logic if no target is available
